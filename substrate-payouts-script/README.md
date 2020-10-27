@@ -10,7 +10,7 @@ Python 2.7
 
 python query.py
 
-`
+```
 python query.py
 Welcome to the payout tracker
 ....
@@ -18,4 +18,4 @@ Enter your stash address
 Enter your address: EXkCSUQ6Z1hKvGWMNkUDKrTMVHRduQHWc8G6vgo4NccUmhU
 Enter pending rewards era window:3
 You have 271 KSM pending withdrawal
-`
+```
