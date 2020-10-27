@@ -1,0 +1,14 @@
+{
+  "name": "substrate-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/queryBlock.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^2.4.1"
+  }
+}
