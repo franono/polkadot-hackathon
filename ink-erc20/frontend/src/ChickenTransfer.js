@@ -35,7 +35,7 @@ function Main(props) {
 
     const updateBalance = () => {
         chickenContract.query.balanceOf(accountPair.address, 0, defaultGasLimit, accountPair.address).then((balance) => {
-            setBalance(balance.output.toNumber());
+            setBalance(balance.output);
         })
     }
     useEffect(() => {

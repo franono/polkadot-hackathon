@@ -12,7 +12,7 @@ export default function Main(props) {
 
     const updateBalanceOf = async (accountAddress) => {
         const result = await chickenContract.query.balanceOf(accountAddress, 0, defaultGasLimit, accountAddress);
-        return result.output.toNumber()
+        return result.output
     }
 
     const updateBalances = async () => {

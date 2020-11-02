@@ -2,7 +2,7 @@ import metadata from './ChickenMetadata.json';
 import {Abi, ContractPromise} from '@polkadot/api-contract';
 
 export const defaultGasLimit = 300000n * 1000000n;
-const ChickenContractAddress = '5Ef8uv187oYvkQx2X9eeSBXJB9bFzCHs6fiWhFvuxeQW77YF';
+const ChickenContractAddress = '5FH1kRdZDGBUXN41oRtdwXTwzZdbpgbr43q8tG5xyg1PW18a';
 
 export default function ChickenContract(api) {
     const abi = new Abi(metadata);

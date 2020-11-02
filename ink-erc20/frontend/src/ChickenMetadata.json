@@ -6,7 +6,7 @@
     "compiler": "rustc 1.49.0-nightly"
   },
   "contract": {
-    "name": "doterc20",
+    "name": "erc20",
     "version": "0.1.0",
     "authors": [
       ""
