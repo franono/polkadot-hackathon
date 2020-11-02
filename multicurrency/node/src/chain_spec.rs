@@ -153,10 +153,6 @@ fn testnet_genesis(
 			// Assign network admin rights.
 			key: root_key.clone(),
 		}),
-		orml_tokens: Some(TokensConfig {
-			endowed_accounts: vec![
-				(root_key, CurrencyId::My, 1 << 60),
-			],
-		})
+		orml_tokens: Default::default(),
 	}
 }
